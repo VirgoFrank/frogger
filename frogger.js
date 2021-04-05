@@ -76,33 +76,33 @@ class Obstacle{
 
 function initCars(){
 
-    // for (let i = 1; i < 7; i++) {
+    for (let i = 1; i < 7; i++) {
         
-    //     obstacles.push(new Obstacle(rowWidth*i*3, height-colHeight*5, rowWidth, colHeight, 200, "red"))
+        obstacles.push(new Obstacle(rowWidth*i*3, height-colHeight*5, rowWidth, colHeight, 200, "red"))
         
-    // }
-    // obstacles.push(new Obstacle(-rowWidth*3, height-colHeight*5, rowWidth, colHeight, 200, "red"))
+    }
+    obstacles.push(new Obstacle(-rowWidth*3, height-colHeight*5, rowWidth, colHeight, 200, "red"))
 
-    // for (let i = 1; i < 5; i++) {
+    for (let i = 1; i < 5; i++) {
 
-    //     obstacles.push(new Obstacle(rowWidth*3*i , height-colHeight*2, rowWidth, colHeight, 200, "blue"))
+        obstacles.push(new Obstacle(rowWidth*3*i , height-colHeight*2, rowWidth, colHeight, 200, "blue"))
         
-    // }
+    }
 
-    // for (let i = 1; i < 6; i++) {
+    for (let i = 1; i < 6; i++) {
 
-    //     obstacles.push(new Obstacle(rowWidth*4*i , height-colHeight*7, rowWidth, colHeight, 160, "pink"))
+        obstacles.push(new Obstacle(rowWidth*4*i , height-colHeight*7, rowWidth, colHeight, 160, "pink"))
         
-    // }
-    // obstacles.push(new Obstacle(-rowWidth*3 , height-colHeight*2, rowWidth, colHeight, 200, "blue"))
+    }
+    obstacles.push(new Obstacle(-rowWidth*3 , height-colHeight*2, rowWidth, colHeight, 200, "blue"))
 
-    // obstacles.push(new Obstacle(-rowWidth*4, height-colHeight*3, rowWidth*2, colHeight, 120, "red"))
-    // obstacles.push(new Obstacle(rowWidth*8, height-colHeight*3, rowWidth*2, colHeight, 120, "red"))
-    // obstacles.push(new Obstacle(rowWidth*8, height-colHeight*4, rowWidth, colHeight, 150, "green"))
-    // obstacles.push(new Obstacle(rowWidth*4, height-colHeight*4, rowWidth, colHeight, 150, "green"))
-    // obstacles.push(new Obstacle(rowWidth, height-colHeight*4, rowWidth, colHeight, 150, "green"))
-    // obstacles.push(new Obstacle(rowWidth, height-colHeight*6, rowWidth*3, colHeight, -150, "yellow"))
-    // obstacles.push(new Obstacle(rowWidth*6, height-colHeight*6, rowWidth*3, colHeight, -150, "yellow"))
+    obstacles.push(new Obstacle(-rowWidth*4, height-colHeight*3, rowWidth*2, colHeight, 120, "red"))
+    obstacles.push(new Obstacle(rowWidth*8, height-colHeight*3, rowWidth*2, colHeight, 120, "red"))
+    obstacles.push(new Obstacle(rowWidth*8, height-colHeight*4, rowWidth, colHeight, 150, "green"))
+    obstacles.push(new Obstacle(rowWidth*4, height-colHeight*4, rowWidth, colHeight, 150, "green"))
+    obstacles.push(new Obstacle(rowWidth, height-colHeight*4, rowWidth, colHeight, 150, "green"))
+    obstacles.push(new Obstacle(rowWidth, height-colHeight*6, rowWidth*3, colHeight, -150, "yellow"))
+    obstacles.push(new Obstacle(rowWidth*6, height-colHeight*6, rowWidth*3, colHeight, -150, "yellow"))
 
     obstacles.push(new Obstacle(rowWidth, height-colHeight*9, rowWidth*2, colHeight, 100, "brown", true))
     obstacles.push(new Obstacle(rowWidth*8, height-colHeight*9, rowWidth*2, colHeight, 100, "brown", true))
