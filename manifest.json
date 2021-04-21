@@ -1,0 +1,13 @@
+{
+    "short_name":"frogger",
+    "name": "frogger",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "./images/icon.png",
+            "sizes": "144x144",
+            "type" : "image/png"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "frogger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "frogger.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VirgoFrank/frogger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VirgoFrank/frogger/issues"
+  },
+  "homepage": "https://github.com/VirgoFrank/frogger#readme"
+}
